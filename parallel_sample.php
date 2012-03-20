@@ -1,6 +1,8 @@
 <?php
 
-require 'parallel.php';
+require '_require.php';
+
+_require('parallel');
 
 for($i;$i<100;$i++) {
   $args = array('count' => $i);
